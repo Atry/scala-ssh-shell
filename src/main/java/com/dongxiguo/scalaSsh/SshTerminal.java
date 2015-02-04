@@ -7,7 +7,7 @@
  * BSD license in the documentation provided with this software.
  */
 
-package scala.tools.jline;
+package com.dongxiguo.scalaSshShell;
 
 import scala.tools.jline.console.Key;
 import scala.tools.jline.internal.Configuration;
@@ -19,7 +19,8 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-import static scala.tools.jline.SshTerminal.UnixKey.*;
+import scala.tools.jline.*;
+import static com.dongxiguo.scalaSshShell.SshTerminal.UnixKey.*;
 import static scala.tools.jline.console.Key.*;
 
 /**
@@ -32,7 +33,7 @@ import static scala.tools.jline.console.Key.*;
  * @author <a href="mailto:pop.atry@gmail.com">杨博</a>
  * @since 2.0
  */
-public class SshTerminal
+class SshTerminal
     extends TerminalSupport
 {
     private final ReplayPrefixOneCharInputStream replayStream;

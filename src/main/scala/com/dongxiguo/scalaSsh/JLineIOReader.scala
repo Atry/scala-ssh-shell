@@ -2,11 +2,10 @@
  * Copyright 2005-2011 LAMP/EPFL
  * @author Stepan Koltsov
  */
+package com.dongxiguo.scalaSshShell
+import scala.tools.nsc._
+import scala.tools.nsc.interpreter._
 
-package scala.tools.nsc
-package interpreter
-
-import scala.tools.jline.SshTerminal
 import scala.tools.jline.console.ConsoleReader
 import scala.tools.jline.console.completer._
 import session._

@@ -10,6 +10,8 @@ libraryDependencies <+= scalaVersion { sv =>
   "com.dongxiguo" %% "zero-log" % "0.3.2"
 }
 
+libraryDependencies += "commons-codec" % "commons-codec" % "1.8"
+
 crossScalaVersions :=
   Seq("2.10.1", "2.10.1-SNAPSHOT")
 
